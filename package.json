@@ -7,25 +7,23 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node App.js"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jyip6/Kanbas-node-server-app"
   },
-
   "bugs": {
     "url": "https://github.com/jyip6/Kanbas-node-server-app"
   },
   "homepage": "https://github.com/jyip6/kanbas-node-server-app#readme",
-
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "mongoose": "^8.5.2",
     "node": "^18.20.4"
-    
   }
 }
